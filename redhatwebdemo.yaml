@@ -3,7 +3,7 @@
   name: This playbook is for Jenkins and Ansible project
   hosts: "all"
   become: yes
-  remote_user: ec2-user
+  remote_user: root
 
   tasks:
     -
